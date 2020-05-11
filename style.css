@@ -1,0 +1,179 @@
+/* -------  Structure ------- */
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 20px;
+  background-color: #403933;
+}
+
+footer {
+  height: 84px;
+  background-color: #403933;
+}
+
+.wrapper {
+  width: 580px;
+  margin: auto;
+}
+/* -------  Logo ------- */
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  color: #f0eee9;
+  margin: 0px;
+  padding-top: 24px;
+  font-size: 48px;
+  text-align: center;
+}
+
+header h2 {
+  font-family: "Playfair Display", serif;
+  color: #e3e1dc;
+  margin: 0px;
+  padding-top: 16px;
+  font-size: 22px;
+  text-align: center;
+}
+
+/* -------  Type ------- */
+
+h1,
+h2 {
+  color: #403933;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+
+p,
+li {
+  font-family: "Noto Sans", sans-serif;
+  color: #2d2c2a;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:link {
+  color: #b00606;
+}
+a:visited {
+  color: #b00606;
+}
+a:hover {
+  color: #b00606;
+}
+a:active {
+  color: #b00606;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #ffffff;
+  text-align: center;
+}
+
+hr {
+  border: 0.5px solid #403933;
+}
+
+.gap-sm {
+  height: 50px;
+  width: auto;
+}
+.gap-lg {
+  height: 200px;
+  width: auto;
+}
+
+.gap-footer {
+  height: 10px;
+  width: auto;
+}
+
+/* -------  Layout ------- */
+
+.nav {
+  text-align: center;
+  word-spacing: 30px;
+  font-size: large;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1500px;
+  text-align: center;
+  background-image: url(images/sunset.JPG);
+}
+
+.hero h1 {
+  font-size: 80px;
+  color: white;
+  text-shadow: 0 0 10px #b00606;
+  margin-bottom: 20px;
+}
+
+.hero h2 {
+  font-size: 20px;
+  color: #403933;
+  background: white;
+  display: inline;
+  padding: 3px 10px;
+  border-radius: 8px;
+}
+
+.bg-accent {
+  background-color: #403933;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.bg-accent p,
+.bg-accent h2 {
+  color: #fff;
+}
+
+.bg-accent a:link {
+  color: #ffffff;
+}
+.bg-accent a:visited {
+  color: #ffffff;
+}
+.bg-accent a:hover {
+  color: #ffffff;
+}
+.bg-accent a:active {
+  color: #ffffff;
+}
+
+.nav a:link {
+  color: #ffffff;
+}
+.nav a:visited {
+  color: #ffffff;
+}
+.nav a:hover {
+  color: #ffffff;
+}
+.nav a:active {
+  color: #ffffff;
+}
