@@ -107,6 +107,9 @@ hr {
   height: 10px;
   width: auto;
 }
+.center-p {
+  text-align: center;
+}
 
 /* -------  Layout ------- */
 
